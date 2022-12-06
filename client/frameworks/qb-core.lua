@@ -11,7 +11,7 @@ end
 QBCore, PlayerData, isLoggedIn = nil, nil, false
 
 -- QB core parts
-QBCore = exports[framework]:GetCoreObject()
+local QBCore = exports['qb-core']:GetCoreObject()
 PlayerData = QBCore.Functions.GetPlayerData()
 isLoggedIn = false
 
